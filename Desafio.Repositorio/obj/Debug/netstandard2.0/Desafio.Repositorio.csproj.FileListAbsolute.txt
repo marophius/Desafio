@@ -1,0 +1,12 @@
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.csprojAssemblyReference.cache
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.AssemblyInfoInputs.cache
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.AssemblyInfo.cs
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\bin\Debug\netstandard2.0\Desafio.Repositorio.deps.json
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\bin\Debug\netstandard2.0\Desafio.Repositorio.dll
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\bin\Debug\netstandard2.0\Desafio.Dominio.dll
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\bin\Debug\netstandard2.0\Desafio.Dominio.pdb
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.csproj.CopyComplete
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\bin\Debug\netstandard2.0\Desafio.Repositorio.pdb
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.dll
+C:\Users\ifeme\Videos\Desafio\Desafio.Repositorio\obj\Debug\netstandard2.0\Desafio.Repositorio.pdb
