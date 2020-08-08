@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MHqalYBvbz6hV9o2899V5jbBTZ5/y9jSWWXiAmBr/XkW9P0w4JWwN22tJFVG/bVd8f1Thcw1fzZuISkHp1tWug==",
+  "dgSpecHash": "lYpjidDZw2yRzOGYJskppBD5029gkr6jg2UkfxvYp6Hw4vinDUc4Es+f0eZ6sgB816u8H5gSkEN9SlMuu9tbyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeme\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

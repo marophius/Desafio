@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/XOt35EAKEcp+w6mtN5NEDNUwG1f138XZMlPkslvTeNL/7d5l/zBcHK3L0Z8l2r09kA8EDngTJIwripqDwSGwg==",
+  "dgSpecHash": "FL4f4KR2NuTZ/BTcUly1c0ZxZtAc2KAeE6wmcD/AXf5jY52uLTHzWjb3e75V9V4KOMofwDA4W37qk+pUxTOClw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.API\\Desafio.API.csproj",
+  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.API\\Desafio.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeme\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

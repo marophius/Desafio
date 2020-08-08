@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {}
+    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
+    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
         "projectName": "Desafio.Dominio",
-        "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
+        "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
         "packagesPath": "C:\\Users\\ifeme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {
+    "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
         "projectName": "Desafio.Repositorio",
-        "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
+        "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
         "packagesPath": "C:\\Users\\ifeme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\obj\\",
+        "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj"
+              "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
+                "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj"
               }
             }
           }

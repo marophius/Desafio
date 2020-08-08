@@ -7,3 +7,12 @@ C:\Users\ifeme\Videos\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.D
 C:\Users\ifeme\Videos\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\ifeme\Videos\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.dll
 C:\Users\ifeme\Videos\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.pdb
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\bin\Debug\netstandard2.0\Desafio.Dominio.deps.json
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\bin\Debug\netstandard2.0\Desafio.Dominio.dll
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\bin\Debug\netstandard2.0\Desafio.Dominio.pdb
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.csprojAssemblyReference.cache
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.AssemblyInfoInputs.cache
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.AssemblyInfo.cs
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.dll
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.Dominio\obj\Debug\netstandard2.0\Desafio.Dominio.pdb

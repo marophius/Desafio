@@ -12562,11 +12562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.API\\Desafio.API.csproj",
+      "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.API\\Desafio.API.csproj",
       "projectName": "Desafio.API",
-      "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.API\\Desafio.API.csproj",
+      "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.API\\Desafio.API.csproj",
       "packagesPath": "C:\\Users\\ifeme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.API\\obj\\",
+      "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12587,11 +12587,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj"
+            "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj"
             },
-            "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {
-              "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj"
+            "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj": {
+              "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj"
             }
           }
         }

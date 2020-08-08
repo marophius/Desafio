@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5TtlObUOuC8wyeBa7VqRQsM+4fgcJnR/9eSS3Ods7a2kM3Q9nOzjfCtQicKZVtZaXAcWyJIXimsngCq/FY7OZQ==",
+  "dgSpecHash": "yKh4BEr5GFvCvpSPsUPDk9m481o6/rGCuT9L/k5Q142s1juiNHSlGwp1GH4a2AN78kV8C9xQQ7oBXRfxcZAw/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
+  "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Repositorio\\Desafio.Repositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeme\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

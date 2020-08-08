@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
       "projectName": "Desafio.Dominio",
-      "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
+      "projectPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\Desafio.Dominio.csproj",
       "packagesPath": "C:\\Users\\ifeme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
