@@ -9,6 +9,12 @@ namespace Desafio.Repositorio.Config
 {
     public class ColaboradorConfiguration : IEntityTypeConfiguration<Colaborador>
     {
+        /*
+         * Essas são as classes de mapeamento de banco,
+         * aqui podemos inserir também algumas validações e 
+         * adicionar relacionamentos, melhorando a performance
+         * do  nosso banco.
+         */
         public void Configure(EntityTypeBuilder<Colaborador> builder)
         {
             builder.HasKey(c => c.Id);

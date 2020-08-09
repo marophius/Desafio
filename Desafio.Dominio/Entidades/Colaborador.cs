@@ -6,6 +6,12 @@ namespace Desafio.Dominio.Entidades
 {
     public class Colaborador
     {
+        /*
+         * Aqui estão as models que foram requisitadas no desafio,
+         * caso haja algum atributo que exceda o que foi requisitado,
+         * provavelmente é por seguir o padrão do entity framework
+         * para colocar um relacionamento entre as Entidades
+         */
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }

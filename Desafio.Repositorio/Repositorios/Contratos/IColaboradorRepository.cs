@@ -7,6 +7,9 @@ namespace Desafio.Respositorio.Repositorios.Contratos
 {
     public interface IColaboradorRepository
     {
+        /*
+         * Aqui estão as nossas interfaces, seguindo o padrão repositório
+         */
         void Cadastrar(Colaborador cb);
         void Atualizar(Colaborador cb);
         void Excluir(int id);

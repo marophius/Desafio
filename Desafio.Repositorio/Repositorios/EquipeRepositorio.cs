@@ -10,6 +10,11 @@ namespace Desafio.Respositorio.Repositorios
 {
     public class EquipeRepositorio : IEquipeRepository
     {
+        /*
+         * Aqui nossas implementações dos métodos de nossos contratos
+         * PS.:Não fiz validações por aqui, as validações estão no projeto
+         * da API dentro da pasta Validacoes
+         */
         private readonly DesafioContext _context;
 
         public EquipeRepositorio(DesafioContext context)

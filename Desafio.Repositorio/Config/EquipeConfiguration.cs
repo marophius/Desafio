@@ -9,6 +9,7 @@ namespace Desafio.Repositorio.Config
 {
     public class EquipeConfiguration : IEntityTypeConfiguration<Equipe>
     {
+        // Aqui temos o mapeamento da Entidade equipe.
         public void Configure(EntityTypeBuilder<Equipe> builder)
         {
             builder.HasKey(eq => eq.Id);

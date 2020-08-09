@@ -38,7 +38,6 @@ C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\bin\Debug\netcoreapp2.2\Desafi
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.csprojAssemblyReference.cache
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.AssemblyInfoInputs.cache
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.AssemblyInfo.cs
-C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.csproj.CoreCompileInputs.cache
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.RazorAssemblyInfo.cache
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.RazorAssemblyInfo.cs
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.RazorTargetAssemblyInfo.cache
@@ -46,3 +45,4 @@ C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafi
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.dll
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.pdb
 C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.genruntimeconfig.cache
+C:\Users\ifeme\Videos\Desafio\Desafio\Desafio.API\obj\Debug\netcoreapp2.2\Desafio.API.csproj.CoreCompileInputs.cache
