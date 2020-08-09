@@ -8,6 +8,7 @@ using Desafio.Respositorio.Repositorios.Contratos;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Desafio.API.Controllers
 {
@@ -31,20 +32,32 @@ namespace Desafio.API.Controllers
             _validationResult = validationResult;
         }
 
-        [HttpGet("api/equipe/obterTodasEquipes")]
+        [HttpGet]
+        [Route("obterTodas")]
         public List<Equipe> ObterTodasEquipes()
         {
             return _equipeRepository.ObterTodasEquipes().ToList();
         }
 
-        [HttpPost("api/equipe/cadastrar")]
+        [HttpPost]
+        [Route("cadastrar")]
         public IActionResult Cadastrar([FromBody] Equipe equipe)
         {
+            // Equipe equipe = JsonConvert.DeserializeObject<Equipe>(equipeJsonString);
             try
             {
                 _validationResult = _equipeValidator.Validate(equipe);
+
+                if (!_validationResult.IsValid)
+                {
+                    foreach (var failure in _validationResult.Errors)
+                    {
+                        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+                    }
+                }
+
                 _equipeRepository.Cadastrar(equipe);
-                return Ok("Equipe cadastrada com sucesso");
+                return Ok("Equipe cadastrada com sucesso!");
 
             }catch(Exception ex)
             {
@@ -52,12 +65,21 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpPost("api/equipe/atualizar")]
+        [HttpPost()]
+        [Route("atualizar")]
         public IActionResult Atualizar([FromBody] Equipe equipe)
         {
             try
             {
                 _validationResult = _equipeValidator.Validate(equipe);
+
+                if (!_validationResult.IsValid)
+                {
+                    foreach(var failure in _validationResult.Errors)
+                    {
+                        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+                    }
+                }
                 _equipeRepository.Atualizar(equipe);
 
                 return Ok("Registro atualizado com sucesso!");
@@ -68,7 +90,8 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpGet("api/equipe/excluir")]
+        [HttpGet]
+        [Route("excluir")]
         public IActionResult Excluir(int id)
         {
             try
@@ -83,7 +106,8 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpGet("api/equipe/obterEquipe")]
+        [HttpGet]
+        [Route("obterEquipe")]
         public IActionResult ObterEquipe(int id)
         {
             if (id <= 0)
@@ -93,6 +117,13 @@ namespace Desafio.API.Controllers
 
             _equipeRepository.ObterEquipe(id);
 
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("teste")]
+        public IActionResult teste()
+        {
             return Ok();
         }
 

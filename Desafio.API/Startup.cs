@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Desafio.API.Validacoes;
+using Desafio.Dominio.Validacoes;
 using Desafio.Repositorio.Database;
 using Desafio.Respositorio.Repositorios;
 using Desafio.Respositorio.Repositorios.Contratos;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +37,9 @@ namespace Desafio.API
         {
             services.AddScoped<IColaboradorRepository, ColaboradorRepositorio>();
             services.AddScoped<IEquipeRepository, EquipeRepositorio>();
+            services.AddScoped<EquipeValidator>();
+            services.AddScoped<ColaboradorValidator>();
+            services.AddScoped<ValidationResult>();
 
             var connectionString = Configuration.GetConnectionString("DesafioDB");
             services.AddDbContext<DesafioContext>(option =>
@@ -55,7 +61,7 @@ namespace Desafio.API
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

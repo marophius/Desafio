@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CXcf1VDdPSMTGoYIqEp/7Gi7wR7l9XQMM5sWXKeiXOIQ295Cmbq7jnA/6I/OPi/Spc8JMjSA2jk1yeVh8zZ8RQ==",
+  "dgSpecHash": "5uIYZ9HiBHUZhohdlRYFpJOXwSyN8Bhne360qqqGYPHD5N2gkvsfSPMRQqpqVO6gw2JyCOXTsn3fhAqm/wSYqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ifeme\\Videos\\Desafio\\Desafio\\Desafio.API\\Desafio.API.csproj",
   "expectedPackageFiles": [
@@ -180,7 +180,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\ifeme\\.nuget\\packages\\mysqlconnector\\0.49.2\\mysqlconnector.0.49.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\ifeme\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\ifeme\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\2.2.0\\pomelo.entityframeworkcore.mysql.2.2.0.nupkg.sha512",
     "C:\\Users\\ifeme\\.nuget\\packages\\pomelo.jsonobject\\2.2.0\\pomelo.jsonobject.2.2.0.nupkg.sha512",

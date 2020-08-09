@@ -31,18 +31,29 @@ namespace Desafio.API.Controllers
             _validationResult = validationResult;
         }
 
-        [HttpGet("api/colaborador/obterTodos")]
+        [HttpGet]
+        [Route("obterTodos")]
         public List<Colaborador> ObterTodosColaboradores()
         {
             return _colaboradorRepositorio.ObterTodosColaboradores().ToList();
         }
 
-        [HttpPost("api/colaborador/cadastrar")]
+        [HttpPost]
+        [Route("cadastrar")]
         public IActionResult Cadastrar([FromBody] Colaborador colaborador)
         {
             try
             {
                 _validationResult = _colaboradorValidator.Validate(colaborador);
+
+                _validationResult = _colaboradorValidator.Validate(colaborador);
+                if (!_validationResult.IsValid)
+                {
+                    foreach (var failure in _validationResult.Errors)
+                    {
+                        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+                    }
+                }
                 /*
                  * Embora não tenha sido pedido, eu creio que seria estranho caso fosse possível
                  * cadastrar alguém muito novo para trabalhar, então fiz essa ultima validação aqui;
@@ -64,12 +75,21 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpPost("api/colaborador/atualizar")]
+        [HttpPost]
+        [Route("atualizar")]
         public IActionResult Atualizar([FromBody] Colaborador colaborador)
         { 
             try
             {
                 _validationResult = _colaboradorValidator.Validate(colaborador);
+                if (!_validationResult.IsValid)
+                {
+                    foreach(var failure in _validationResult.Errors)
+                    {
+                        Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
+                    }
+                }
+
                 _colaboradorRepositorio.Atualizar(colaborador);
                 return Ok("Atualizado com sucesso!");
 
@@ -79,7 +99,8 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpGet("api/colaborador/excluir")]
+        [HttpGet]
+        [Route("excluir")]
         public IActionResult Excluir(int id)
         {
             try
@@ -94,7 +115,8 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpGet("api/colaborador/obterColaborador")]
+        [HttpGet]
+        [Route("obterColaborador")]
         public IActionResult ObterColaborador(int id)
         {
             if(id <= 0)
