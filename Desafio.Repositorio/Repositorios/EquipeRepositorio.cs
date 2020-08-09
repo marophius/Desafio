@@ -34,9 +34,8 @@ namespace Desafio.Respositorio.Repositorios
             _context.SaveChanges();
         }
 
-        public void Excluir(int id)
+        public void Excluir(Equipe equipe)
         {
-            Equipe equipe = ObterEquipe(id);
             _context.Remove(equipe);
             _context.SaveChanges();
         }

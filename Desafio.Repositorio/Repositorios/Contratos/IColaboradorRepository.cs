@@ -12,7 +12,7 @@ namespace Desafio.Respositorio.Repositorios.Contratos
          */
         void Cadastrar(Colaborador cb);
         void Atualizar(Colaborador cb);
-        void Excluir(int id);
+        void Excluir(Colaborador cb);
         Colaborador ObterColaborador(int id);
         IEnumerable<Colaborador> ObterTodosColaboradores();
     }

@@ -90,13 +90,13 @@ namespace Desafio.API.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("excluir")]
-        public IActionResult Excluir(int id)
+        public IActionResult Excluir(Equipe equipe)
         {
             try
             {
-                _equipeRepository.Excluir(id);
+                _equipeRepository.Excluir(equipe);
 
                 return Ok("Registro apagado com sucesso!");
 

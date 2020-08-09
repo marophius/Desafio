@@ -34,9 +34,8 @@ namespace Desafio.Respositorio.Repositorios
             _context.SaveChanges();
         }
 
-        public void Excluir(int id)
+        public void Excluir(Colaborador cb)
         {
-            Colaborador cb = ObterColaborador(id);
             _context.Remove(cb);
             _context.SaveChanges();
         }
