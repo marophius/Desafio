@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "DesafioDB": "server=localhost;uid=root;pwd=123456789;database=test"
-  }
-} 

@@ -15,7 +15,6 @@ namespace Desafio.Dominio.Entidades
         public int Id { get; set; }
         public string NomeEquipe { get; set; }
         public string NomeGestor { get; set; }
-
         public virtual ICollection<Colaborador> Colaboradores { get; set; }
     }
 }

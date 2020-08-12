@@ -54,18 +54,7 @@ namespace Desafio.API.Controllers
                         Console.WriteLine("Property " + failure.PropertyName + " failed validation. Error was: " + failure.ErrorMessage);
                     }
                 }
-                /*
-                 * Embora não tenha sido pedido, eu creio que seria estranho caso fosse possível
-                 * cadastrar alguém muito novo para trabalhar, então fiz essa ultima validação aqui;
-                 */
-                var colaboradorIdade = colaborador.DataNascimento;
-                var today = DateTime.Now;
-                var validaçãoIdade = colaborador.DataNascimento.Year - today.Year;
-
-                if(colaboradorIdade > today.AddYears(-validaçãoIdade) && validaçãoIdade > 18)
-                {
-                    return BadRequest("Idade inválida!");
-                }
+                
                 _colaboradorRepositorio.Cadastrar(colaborador);
                 return Ok("Cadastrado com sucesso!");
 

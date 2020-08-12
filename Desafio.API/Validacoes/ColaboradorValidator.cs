@@ -23,9 +23,14 @@ namespace Desafio.Dominio.Validacoes
                 .NotEmpty()
                 .WithMessage("Endereço é um campo obrigatório, e não pode ser vazio!");
             RuleFor(c => c.DataNascimento)
-                .NotNull()
-                .WithMessage("A data é um campo obrigatório e não pode ser nulo!")
-                .GreaterThan(DateTime.Today).WithMessage("Data inválida!");
+                .NotNull().WithMessage("Data é um campo obrigatório e não pode ser vazio!")
+                .NotEmpty().WithMessage("Data é um campo obrigatório e não pode ser vazio!");
+
+            //Eu tentei trabalhar com o DateTime, porém não consegui.
+            //RuleFor(c => c.DataNascimento)
+            //    .NotNull()
+            //    .WithMessage("A data é um campo obrigatório e não pode ser nulo!")
+            //    .GreaterThan(DateTime.Today).WithMessage("Data inválida!");
 
             /*
              * No caso abaixo, poucos usuarios saberâo a diferença entre nulo e vazio,

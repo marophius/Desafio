@@ -29,15 +29,16 @@ namespace Desafio.Repositorio.Config
             builder
                 .Property(c => c.Genero)
                 .IsRequired()
-                .HasMaxLength(5);
+                .HasMaxLength(30);
             builder
                 .Property(c => c.Endereco)
                 .IsRequired()
                 .HasMaxLength(150);
             builder
                 .Property(c => c.DataNascimento)
-                .IsRequired()
-                .HasColumnType("dateTime");
+                .IsRequired();
+
+            builder.HasOne(c => c.Equipe);
 
         }
     }
